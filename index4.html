@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HaptiConsole Demo</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">HaptiConsole</a>
+	    </div>
+	    <div>
+	      <ul class="nav navbar-nav">
+	        <li><a href="index.html">Internet Shopping</a></li>
+	        <li><a href="index2.html">Museum</a></li>
+	        <li><a href="index3.html">Aquarium</a></li>
+	        <li class="active"><a href="index4.html">CAPTCHA</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="container tcon text-center">
+		<h1>Haptic CAPTCHA</h1>
+	</div>
+
+	<div class="container text-center">
+		<div class="row text-center">
+			<div class="col-md-6 text-center" style="width: 50%; border: 1px solid powderblue; border-radius: 5px;">
+				<h3>Visual CAPTCHA</h3>
+				<img src="captcha1.png" alt="">
+				<br>
+				<button class="btn btn-primary">Verify</button>
+			</div>
+			<div class="col-md-6 text-center" style="width: 50%; border: 1px solid powderblue; border-radius: 5px;">
+				<h3>Haptic CAPTCHA</h3>
+				<img src="captcha1.png" alt="">
+				<br>
+				<button class="btn btn-primary">Verify</button>
+			</div>
+		</div>
+	</div>
+
+    <footer>
+      <p class="text-center">HaptiConsole Copyright &copy; 2017</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+<!-- 	<script>
+		var selector = document.getElementById("compwith");
+		function myFunc() {
+			pants = selector.options[selector.selectedIndex].value;
+			alert(pants);
+		}
+	</script> -->
+</body>
+</html>

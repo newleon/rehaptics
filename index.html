@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HaptiConsole Demo</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">HaptiConsole</a>
+	    </div>
+	    <div>
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="index.html">Internet Shopping</a></li>
+	        <li><a href="index2.html">Museum</a></li>
+	        <li><a href="index3.html">Aquarium</a></li>
+	        <li><a href="index4.html">CAPTCHA</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="container tcon text-center">
+		<!--<div class="jumbotron" style="border-bottom: thick solid orange;">
+			<h1 class="text-center">Men's WearHouse</h1>
+			<font color=blue size=24px><span class="glyphicon glyphicon-glass" aria-hidden="true" style="text-shadow: 2px 2px 5px grey;"></span></font>
+		</div>-->
+		<h1>Men's WearHouse</h1>
+	</div>
+
+	<div class="container tcon">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="corduroy_blue1.jpg" alt="" width="90%">
+			</div>
+			<div class="col-md-4">
+				<img src="corduroy_blue2.jpg" alt="" width="90%">
+			</div>
+			<div class="col-md-4">
+				<h3> Levi's 514 Straight Fit Bedford Corduroy Pants </h3>
+				<h4> USD 59.99</h4>
+				<br>
+				<h4>Color:</h4>
+				<select class="selectpicker">
+					<option value="1"> Blue</option>
+					<option value="2"> Lead Grey</option>
+					<option value="3"> Eiffel Tower</option>
+				</select>
+				<br>
+				<h4>Size:</h4>
+				<select class="selectpicker">
+					<option value="1"> W30xL30</option>
+					<option value="2"> W30xL32</option>
+					<option value="3"> W32xL32</option>
+					<option value="4"> W34xL32</option>
+					<option value="5"> W36xL32</option>
+				</select>
+				<br>
+				<h4>QTY:</h4>
+				<select class="selectpicker">
+					<option value="1"> 1</option>
+					<option value="2"> 2</option>
+					<option value="3"> 3</option>
+					<option value="4"> 4</option>
+					<option value="5"> 5</option>
+				</select>
+				<br>
+				<br>
+				<!--<a href="#"> Size Chart</a>-->
+				<button type="button" class="btn btn-primary mybtn">Add to basket</button>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid tcon text-center">
+		<h2> Touch and feel the difference...</h2>
+		<br>
+
+		<div class="row">
+			<div class="col-md-4">
+				<img src="corduroy_blue3.jpg" width="80%">
+			</div>
+			<div class="col-md-4">
+				<img src="corduroy_eiffel_wash3.jpg" width="80%">
+			</div>
+			<div class="col-md-4">
+				<img src="corduroy_straw3.jpg" width="80%">
+			</div>
+		</div>
+
+	</div>
+
+    <footer>
+      <p class="text-center">HaptiConsole Copyright &copy; 2017</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+<!-- 	<script>
+		var selector = document.getElementById("compwith");
+		function myFunc() {
+			pants = selector.options[selector.selectedIndex].value;
+			alert(pants);
+		}
+	</script> -->
+</body>
+</html>
