@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+    
+	<h1>Test select</h1>
+	<select name="" id="theSelector" onchange="myFunc()">
+		<option value="1">Item 1</option>
+		<option value="2">Item 2</option>
+		<option value="3">Item 3</option>
+		<option value="4">Item 4</option>
+	</select>
+	<br>
+
+	<img src="" alt="" id="theImage" width="800px">
+	<script>
+		var mySel = document.getElementById("theSelector");
+		var myImg = document.getElementById("theImage");
+		function myFunc() {
+			var myVal = mySel.options[mySel.selectedIndex].value;
+			myStr = "mu"+myVal+".jpg";
+			myImg.src = myStr;
+
+/*			switch (myVal) {
+				case "1":
+					myImg.src="mu1.jpg";
+					break;
+				case "2":
+					myImg.src="mu2.jpg";
+					break;
+				case "3":
+					myImg.src="mu3.jpg";
+					break;
+				case "4":
+					myImg.src="mu4.jpg";
+					break;
+			}*/
+		}		
+	</script>
+</body>
+</html>
